@@ -347,12 +347,3 @@
   [hidden] {
     display: none;
   }
-
-  .navbar {
-    display: flex;
-  }
-
-  .nav-list{
-    width: 25%;
-    display: flex;
-  }
