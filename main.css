@@ -53,13 +53,13 @@ header.hero h2 {
     margin: 0;
 }
 
-div.hero h1 {
+header.hero h1 {
     color: #fff;
     font-size: 4.2em;
     margin-bottom: 20px;
 }
 
-div.hero h2 {
+header.hero h2 {
     color: #4d5791;
 }
 
