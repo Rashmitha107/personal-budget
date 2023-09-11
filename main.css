@@ -68,6 +68,8 @@ header.hero h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100px;
+    height: 80px;
 }
 
 .container {
