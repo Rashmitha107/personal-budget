@@ -48,7 +48,8 @@ header.hero {
 }
 
 header.hero h1,
-header.hero h2 {
+header.hero h2,
+header.hero img {
     text-align: center;
     margin: 0;
 }
@@ -62,12 +63,9 @@ header.hero h1 {
 header.hero h2 {
     color: #4d5791;
 }
-header.hero figure.bg {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100px;
-    height: 100px;
+header.hero img {
+    width: 10%;
+    height: 10%;
 }
 
 .container {
