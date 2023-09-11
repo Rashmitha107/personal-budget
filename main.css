@@ -63,6 +63,7 @@ header.hero h2 {
     color: #4d5791;
 }
 header.hero figure {
+    display: inline-block;
     width: 3px;
     height: 2px;
 }
