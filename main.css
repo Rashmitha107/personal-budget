@@ -64,8 +64,11 @@ header.hero h2 {
     color: #4d5791;
 }
 header.hero img {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
     width: 10%;
-    height: 10%;
+    height: 20%;
 }
 
 .container {
