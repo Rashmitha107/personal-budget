@@ -62,6 +62,10 @@ header.hero h1 {
 header.hero h2 {
     color: #4d5791;
 }
+header.hero figure {
+    width: 30px;
+    height: 20px;
+}
 
 .container {
     padding: 40px;
