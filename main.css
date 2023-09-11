@@ -63,12 +63,11 @@ header.hero h1 {
 header.hero h2 {
     color: #4d5791;
 }
-header.hero img {
+
+.centered {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    width: 10%;
-    height: 20%;
 }
 
 .container {
