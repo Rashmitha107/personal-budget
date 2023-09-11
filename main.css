@@ -62,12 +62,12 @@ header.hero h1 {
 header.hero h2 {
     color: #4d5791;
 }
-figure.bg {
+header.hero figure.bg {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 30px;
-    height: 20px;
+    width: 100px;
+    height: 100px;
 }
 
 .container {
