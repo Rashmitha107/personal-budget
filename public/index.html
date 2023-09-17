@@ -139,14 +139,12 @@
         var dataSource = {
             datasets: [
                 {
-                    data: [10,20],
+                    data: [],
                     backgroundColor: [
-                        '#ffcd56',
-                        '#ff6384'
                     ],
                 }
             ],
-            labels: ['eat','play']
+            labels: []
         };
 
 
@@ -161,8 +159,9 @@
             axios.get('/budget')
             .then(function (res){
                 console.log(res.data);
-                for (var i=0; i<res.data.length;i++){
-                    dataSource.datasets[0].data[i]=res.data[i].budget;
+                for (var i=0; i<res.data.myBudget.length;i++){
+                    //console.log("entered the loop");
+                    dataSource.datasets[0].data[i]=res.data.myBudget[i].budget;
                     dataSource.datasets[0].backgroundColor= [
                         '#ffcd56',
                         '#ff6384',
@@ -172,7 +171,7 @@
                         '#ffcd84',
                         '#ff1256'
                     ];
-                    dataSource.labels[i]=res.data[i].title;
+                    dataSource.labels[i]=res.data.myBudget[i].title;
                 }
                 console.log(dataSource);
             })
