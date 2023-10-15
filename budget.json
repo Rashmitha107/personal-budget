@@ -2,31 +2,38 @@
     "myBudget": [
         {
             "title": "Eat out",
-            "budget": "50"
+            "budget": "50",
+            "background": "#ffcd56"
         },
         {
             "title": "Rent",
-            "budget": "400"
+            "budget": "400",
+            "background": "#ff6384"
         },
         {
             "title": "Groceries",
-            "budget": "100"
+            "budget": "100",
+            "background": "#3612eb"
         },
         {
             "title": "Commute",
-            "budget": "100"
+            "budget": "100",
+            "background": "#ff56cd"
         },
         {
             "title": "Shopping",
-            "budget": "100"
+            "budget": "100",
+            "background": "#ffdd56"
         },
         {
             "title": "Entertainment",
-            "budget": "60"
+            "budget": "60",
+            "background": "#ffcd84"
         },
         {
             "title": "Insurance",
-            "budget": "500"
+            "budget": "500",
+            "background": "#ff84cd"
         }
     ]
 }    
